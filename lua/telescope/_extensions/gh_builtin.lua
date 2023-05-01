@@ -55,7 +55,7 @@ local function msgLoadingPopup(msg, cmd, complete_fn)
   end
   local prompt_win, prompt_opts = popup.create(msg, {
     border = {},
-    borderchars = conf.borderchars,
+    borderchars = conf.borderchars.preview,
     height = 5,
     col = col,
     line = row,
